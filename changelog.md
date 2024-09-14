@@ -1,13 +1,6 @@
 # Changelog
 
-## [Hardware Version 1.0] - 09/14/2024
-- **Version:** 1.0 (Hardware)
-- **Release Date:** 30/10/2023
-
-#### New Features:
-- No change
-
-### [Firmware Version 1.1.0]
+### [v1.1.0]
 
 #### New Features:
 - OTA Firmware update
@@ -26,24 +19,16 @@
 
 ---
 
-## [Hardware Version 1.0] - 09/14/2024
-- **Version:** 1.0 (Hardware)
-- **Release Date:** 30/10/2023
-
-#### New Features:
-- Added dual port for fan,
-  - PWM Speed control 
-  - Analog speed control (DAC)
-
-### [Firmware Version 1.0.0]
+### [v1.0.0]
 
 #### New Features:
 - Added support for **new PCB version 1.0** with fan speed control circuitry.
 - Scheduling functionality 
 - Web Server for Wifi Config
-- - Added schedule_disabled
+- Added schedule_disabled
 - Added getFanSpeed, getFilterTime, getLedTime
 - Added resetFilterTime & resetLedTime
+- Added Publish AQI index after time interval
 
 #### Improvements:
 - Restructured payload message to JSON format
@@ -63,11 +48,7 @@
 
 ---
 
-## [Hardware Version 0.1.0] - 22/07/2023 (Initial Version)
-- **Version:** 0.0 (Hardware)
-- **Release Date:** 22/07/2023
-
-### [Firmware Version 0.1.0]
+### [v0.1.0]
 
 #### New Features:
 - Basic hardware test
