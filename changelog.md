@@ -29,19 +29,21 @@
 - Added getFanSpeed, getFilterTime, getLedTime
 - Added resetFilterTime & resetLedTime
 - Added Publish AQI index after time interval
+- 
 
 #### Improvements:
 - Restructured payload message to JSON format
 - Migrated from CloudMQTT to
 - List of update payloads Refer: [VioletC MQTT Payload Structure]([URL_TO_PAYLOAD_STRUCTURE])
-- Improved get_schedule format
-- Fixed schedules getting reset after device restart
-- Maintaining the last known fan & UVS state after a restart
-- Fixed, disable_schedule doesn't reset the schedule [I]
-- Fixed, getFanSpeed command not fetching speed level from NVM
+- 
 
 #### Bug Fixes:
-- NA
+- Fixed, getFanSpeed command not fetching speed level from NVM
+- Fixed, disable_schedule doesn't reset the schedule [I]
+- Maintaining the last known fan & UVS state after a restart
+- Improved get_schedule format
+- Fixed schedules getting reset after device restart
+
 
 #### Known Issues:
 - NA
