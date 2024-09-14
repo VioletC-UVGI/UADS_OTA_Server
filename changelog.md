@@ -34,7 +34,7 @@
 #### Improvements:
 - Restructured payload message to JSON format
 - Migrated from CloudMQTT to
-- List of update payloads Refer: [VioletC MQTT Payload Structure]([URL_TO_PAYLOAD_STRUCTURE])
+- List of update payloads Refer: [VioletC MQTT Payload Structure]([https://docs.google.com/document/d/1pG3jhv8G_tFZMPh7XMVLRTqPksyWVIKNnsxpRhT-Wag/edit])
 - 
 
 #### Bug Fixes:
